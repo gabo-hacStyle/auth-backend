@@ -1,0 +1,40 @@
+# .gitignore
+
+# Ignorar la configuración del entorno virtual
+venv/
+
+# Ignorar todos los archivos .pyc
+**/*.pyc
+
+# Ignorar los archivos de la base de datos SQLite si los estás usando
+*.sqlite3
+
+# Ignorar todos los archivos de log
+*.log
+
+# Ignorar los archivos de configuración local
+local_settings.py
+
+# Ignorar los archivos de migración
+**/migrations/*
+
+# Ignorar los archivos estáticos
+staticfiles/
+
+# Ignorar los archivos de media
+media/
+
+# Ignorar los archivos de caché
+**/__pycache__/**
+
+# Ignorar los archivos de configuración de tu IDE o editor de texto
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.pyc
+*~
+*.sublime-project
+*.sublime-workspace
+.vscode/
